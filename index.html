@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>កម្មវិធីស្វែងរកលទ្ធផលប្រឡង</h1>
+        <form id="gradeForm">
+            <div class="input-group">
+                <div class="form-group">
+                    <label for="attendance">Attendance</label>
+                    <input type="number" id="attendance" placeholder="Enter attendance score" required>
+                </div>
+                <div class="form-group">
+                    <label for="assignment">Assignment</label>
+                    <input type="number" id="assignment" placeholder="Enter assignment score" required>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="form-group">
+                    <label for="midterm">Midterm</label>
+                    <input type="number" id="midterm" placeholder="Enter midterm score" required>
+                </div>
+                <div class="form-group">
+                    <label for="final">Final</label>
+                    <input type="number" id="final" placeholder="Enter final score" required>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" onclick="calculate()">Calculate</button>
+                <button type="reset">Clear</button>
+            </div>
+            <div class="input-group">
+                <div class="form-group">
+                    <label for="total">Total</label>
+                    <input type="number" id="total" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="average">Average</label>
+                    <input type="number" id="average" readonly>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="form-group">
+                    <label for="result">Result</label>
+                    <input type="text" id="result" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="mention">Mention</label>
+                    <input type="text" id="mention" readonly>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

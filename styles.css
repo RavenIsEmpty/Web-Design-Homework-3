@@ -28,6 +28,12 @@ h1 {
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
+.result-group {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1ABC9C;
+    border-radius: 10px;
+}
 .form-group {
     width: 48%;
     margin-bottom: 10px;
@@ -45,11 +51,17 @@ h1 {
     border: 1px solid #BDC3C7;
     box-sizing: border-box;
 }
+.result-box {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #34495E;
+    background-color: #F1C40F;
+    border: 2px solid #E67E22;
+}
 .buttons {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 button {
     width: 48%;
